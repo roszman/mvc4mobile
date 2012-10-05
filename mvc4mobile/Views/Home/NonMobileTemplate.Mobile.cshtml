@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "NonMobileTemplate";
+        //DisplayModeProvider.Instance.RequireConsistentDisplayMode = false;
+    
+}
+
+<h2>NonMobileTemplate Mobile :P</h2>
+
+
+<ul data-role="listview">
+    @for (int i = 0; i <= 100; i++)
+    {
+        <li>@Html.ActionLink(i.ToString(), "int", new { i })</li>
+    } 
+</ul>

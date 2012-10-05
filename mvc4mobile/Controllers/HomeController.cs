@@ -19,5 +19,9 @@ namespace mvc4mobile.Controllers
             return View();
         }
 
+        public ActionResult NonMobileTemplate()
+        {
+            return View();
+        }   
     }
 }

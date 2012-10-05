@@ -6,6 +6,7 @@ using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.WebPages;
+using System.Web.Optimization;
 
 namespace mvc4mobile
 {
@@ -42,6 +43,9 @@ namespace mvc4mobile
                     ContextCondition = context =>
                         context.Request.UserAgent.Contains("Android")
                 });
+
+            BundleMobileConfig.RegisterBundles(BundleTable.Bundles);
+
 
         }
     }
