@@ -140,6 +140,8 @@
     <Content Include="Content\jquery.mobile.structure-1.1.1.min.css" />
     <Content Include="Content\jquery.mobile.theme-1.1.1.css" />
     <Content Include="Content\jquery.mobile.theme-1.1.1.min.css" />
+    <Content Include="Content\reset.css" />
+    <Content Include="Content\Responsive.css" />
     <Content Include="Content\Site.Mobile.css" />
     <Content Include="Global.asax" />
     <Content Include="HTMLPage1.htm" />
@@ -178,6 +180,9 @@
     <Content Include="Views\Home\_Partial.Android.cshtml" />
     <Content Include="Views\Shared\_Layout.Mobile.cshtml" />
     <Content Include="Views\Home\NonMobileTemplate.cshtml" />
+    <Content Include="Views\Home\NonMobileTemplate.Mobile.cshtml" />
+    <Content Include="Views\Home\Responsive.cshtml" />
+    <Content Include="Views\Shared\_ResponsiveLayout.cshtml" />
     <None Include="Views\Shared\_Layout.Mobile.cshtml.org" />
     <Content Include="Views\Shared\_ViewSwitcher.cshtml" />
   </ItemGroup>

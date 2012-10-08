@@ -22,6 +22,11 @@ namespace mvc4mobile.Controllers
         public ActionResult NonMobileTemplate()
         {
             return View();
-        }   
+        }
+
+        public ActionResult Responsive()
+        {
+            return View();
+        }
     }
 }

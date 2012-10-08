@@ -15,6 +15,12 @@ namespace mvc4mobile {
             
             bundles.Add(new StyleBundle("~/Content/jquerymobile/css")
                 .Include("~/Content/jquery.mobile-{version}.css"));
+
+            bundles.Add(new StyleBundle("~/Content/Responsive")
+                .Include("~/Content/Responsive.css"));
+
+            bundles.Add(new StyleBundle("~/Content/Reset")
+                .Include("~/Content/reset.css"));
         }
     }
 }

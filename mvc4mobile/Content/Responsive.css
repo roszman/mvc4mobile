@@ -1,0 +1,59 @@
+﻿/*
+12 columns, 69px each, 12px wide gutters = 960px
+blog itself is 900px wide
+.main is 566px wide
+.other is 331px wide
+
+wzór na wyliczenie proporcjonalnych wielkości elementów
+target ÷ context = result
+
+*/
+#page
+{
+    margin: 36px auto;
+    width: 90% /* wartość pi razy drzwi, żeby dobrze wyglądało. oryginalnie: 960px*/
+}
+.blog
+{
+    margin: 0 auto 53px;
+    width: 93.75%; /* target (900px) : context (960px) =  0,9375 */
+    background-color: Gray;
+}
+.blog .main 
+{
+    float: left;
+    width: 62.88888888888889%; /* target (566px) : context (900px) =  0,6288888888888889 */
+    background-color: Maroon;
+}
+.blog .other 
+{
+    float: right;
+    width: 36.77777777777778%; /* target (331px) : context (900px) =  0,3677777777777778 */
+    background-color:Fuchsia;
+}
+.lede
+{
+    padding: 0.8em 5.33333333333333%; /* target (48px) : context (900px) =  0,0533333333333333 */
+}
+.article
+{
+    padding: 40px 8.48056537102473%; /* target (48px) : context (566px) =  0,0848056537102473 */
+    background-color: Orange;
+}
+.recent-entries
+{
+    margin: 0 auto;
+    width: 69.78851963746224%; /* target (231px) : context (331px) =  0,6978851963746224 */
+    background-color: Aqua;
+}
+#main-menu
+{
+    float:left;
+    width: 100%;
+    
+}
+#main-menu li
+{
+    float: left;
+    padding: 0.8em 0px 0.8em 5.33333333333333%; /* target (48px) : context (900px) =  0,0266666666666667 */
+}
