@@ -152,6 +152,7 @@
     <Content Include="Content\reset.css" />
     <Content Include="Content\Responsive.css" />
     <Content Include="Content\Site.Mobile.css" />
+    <Content Include="Content\style.css" />
     <Content Include="Global.asax" />
     <Content Include="HTMLPage1.htm" />
     <Content Include="Scripts\jquery-1.6.4-vsdoc.js" />

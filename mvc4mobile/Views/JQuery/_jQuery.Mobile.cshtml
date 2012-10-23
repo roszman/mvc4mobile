@@ -17,8 +17,12 @@
     <div data-role="page" data-theme="a">
         @Html.Partial("_ViewSwitcher")
         <div data-role="header" align="center">
-    @Html.ActionLink("Home", "Index", "Home")
-    @Html.ActionLink("Non Mobile Template", "NonMobileTemplate")
+        @Html.ActionLink("Home", "index", "Home")
+        @Html.ActionLink("Poziomy", "index", "levels")
+        @Html.ActionLink("Custom DisplayModes", "index", "CustomDisplayMode")
+        @Html.ActionLink("Konsekwentne", "index", "consistent")
+        @Html.ActionLink("jQuery", "index", "JQuery")
+        @Html.ActionLink("Responsive", "index", "Responsive")
 </div>
         <div data-role="header">
             <h1>@ViewBag.Title</h1>
