@@ -117,7 +117,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleMobileConfig.cs" />
+    <Compile Include="Controllers\ConsistentController.cs" />
+    <Compile Include="Controllers\CustomDisplayModeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\JQueryController.cs" />
+    <Compile Include="Controllers\LevelsController.cs" />
+    <Compile Include="Controllers\ResponsiveController.cs" />
     <Compile Include="Controllers\ViewSwitcherController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -134,6 +139,10 @@
     <Content Include="Content\images\icons-18-white.png" />
     <Content Include="Content\images\icons-36-black.png" />
     <Content Include="Content\images\icons-36-white.png" />
+    <Content Include="Content\images\noise-gray.gif" />
+    <Content Include="Content\images\robot.jpg" />
+    <Content Include="Content\images\robot2.jpg" />
+    <Content Include="Content\images\slide-robot.jpg" />
     <Content Include="Content\jquery.mobile-1.1.1.css" />
     <Content Include="Content\jquery.mobile-1.1.1.min.css" />
     <Content Include="Content\jquery.mobile.structure-1.1.1.css" />
@@ -151,6 +160,9 @@
     <Content Include="Scripts\jquery.mobile-1.1.1.js" />
     <Content Include="Scripts\jquery.mobile-1.1.1.min.js" />
     <Content Include="ReadMe.txt" />
+    <Content Include="Views\Home\Index.Mobile.cshtml">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -171,32 +183,35 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Index.Mobile.cshtml" />
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\_Partial.Android.cshtml" />
-    <Content Include="Views\Shared\_Layout.Mobile.cshtml" />
-    <Content Include="Views\Home\NonMobileTemplate.cshtml" />
-    <Content Include="Views\Home\NonMobileTemplate.Mobile.cshtml" />
-    <Content Include="Views\Home\Responsive.cshtml" />
-    <Content Include="Views\Shared\_ResponsiveLayout.cshtml" />
-    <None Include="Views\Shared\_Layout.Mobile.cshtml.org" />
+    <Content Include="Views\CustomDisplayMode\_Partial.Android.cshtml" />
+    <Content Include="Views\JQuery\_jQuery.Mobile.cshtml" />
+    <None Include="Views\Consistent\Index.Mobile.cshtml.old" />
+    <Content Include="Views\Responsive\_ResponsiveLayout.cshtml" />
+    <Content Include="Views\Levels\Index.cshtml" />
+    <Content Include="Views\CustomDisplayMode\Index.cshtml" />
+    <Content Include="Views\CustomDisplayMode\_Partial.cshtml" />
+    <Content Include="Views\Consistent\Index.cshtml" />
+    <Content Include="Views\JQuery\Index.cshtml" />
+    <None Include="Views\Levels\Index.Mobile.cshtml" />
+    <Content Include="Views\JQuery\_jQuery.cshtml" />
+    <Content Include="Views\Responsive\Index.cshtml" />
+    <None Include="Views\Shared\_Layout.Mobile.cshtml" />
     <Content Include="Views\Shared\_ViewSwitcher.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\_Partial.cshtml" />
+    <Content Include="Views\Levels\_Partial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\_Partial.Mobile.cshtml" />
+    <None Include="Views\Levels\_Partial.Mobile.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\_viewstart.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\_Partial.IE8.cshtml" />
+    <Content Include="Views\CustomDisplayMode\_Partial.IE8.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

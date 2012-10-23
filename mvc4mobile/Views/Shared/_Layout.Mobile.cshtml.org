@@ -1,3 +1,0 @@
-﻿
-<h2>Mobile _Layout</h2>
- @RenderBody() 

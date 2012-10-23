@@ -57,3 +57,41 @@ target ÷ context = result
     float: left;
     padding: 0.8em 0px 0.8em 5.33333333333333%; /* target (48px) : context (900px) =  0,0266666666666667 */
 }
+.figure
+{
+    float: right;
+    margin-bottom: 0.5em;
+    margin-left: 2.531645557%; /* 12px / 474px */
+    width: 48.7341772% /* 231px / 474px */
+}
+img,
+embed,
+object,
+video 
+{
+    max-width: 100%; /* modern  browsers resize proportionaly */
+}
+
+/* ie 6 specific
+img,
+embed,
+object,
+video {
+width: 100%;
+}*/
+
+@media screen and (max-width: 600px) 
+{
+       .blog .main 
+        {
+            float: none;
+            width: 100%;
+            background-color: Maroon;
+        }
+        .blog .other 
+        {
+            float: none;
+            width: 100%;
+            background-color:Fuchsia;
+        }
+}
