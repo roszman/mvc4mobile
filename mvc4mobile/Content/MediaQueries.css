@@ -1,0 +1,67 @@
+﻿h2
+{
+    border: 1px dotted gray;
+    padding: 15px;
+}
+
+@media (min-width:700px) {
+    
+    #two, #three, #four, #five
+    {
+        display: none;
+    }
+    #one
+    {
+        display: block;
+    }
+}
+
+@media (min-width:600px) and (max-width: 700px) {
+    
+    #one, #three, #four, #five
+    {
+        display: none;
+    }
+    #two
+    {
+        display: block;
+    }
+    
+}
+@media (min-width:500px) and (max-width: 600px) {
+    
+    #one, #two, #four, #five
+    {
+        display: none;
+    }
+    #three
+    {
+        display: block;
+    }
+    
+}
+@media (min-width:400px) and (max-width: 500px) {
+    
+    #one, #three, #two, #five
+    {
+        display: none;
+    }
+    #four
+    {
+        display: block;
+    }
+    
+}
+@media  (max-width: 400px) {
+    
+    #one, #three, #four, #two
+    {
+        display: none;
+    }
+    #five
+    {
+        display: block;
+    }
+    
+}
+

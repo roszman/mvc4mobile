@@ -5,16 +5,20 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="../../Content/style.css" type="text/css" media="screen" />
     </head> 
-    <body> 
+    <body>
+    <div> 
         <ul id="myNav">
             <li>@Html.ActionLink("Home", "index", "Home")</li>
             <li>@Html.ActionLink("Poziomy", "index", "levels")</li>
             <li>@Html.ActionLink("Custom DisplayModes", "index", "CustomDisplayMode")</li>
             <li>@Html.ActionLink("Konsekwentne", "index", "consistent")</li>
             <li>@Html.ActionLink("jQuery", "index", "JQuery")</li>
+            <li>@Html.ActionLink("Responsive", "index", "Responsive")</li>
+            <li>@Html.ActionLink("CSS3 Media Queries", "index", "CSS3MediaQueries")</li>
         </ul>
 
         <h2>Desktop _Layout.cshtml</h2>
         @RenderBody() 
+        </div>
      </body>
  </html>

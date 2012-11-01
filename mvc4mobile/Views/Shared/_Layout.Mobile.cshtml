@@ -1,2 +1,24 @@
-﻿<h2>Mobile _Layout.Mobile.cshtml</h2>
- @RenderBody() 
+﻿@*@Html.Partial("_ViewSwitcher")*@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../../Content/style.css" type="text/css" media="screen" />
+    </head> 
+    <body> 
+    <div>
+        <ul id="myNav">
+            <li>@Html.ActionLink("Home", "index", "Home")</li>
+            <li>@Html.ActionLink("Poziomy", "index", "levels")</li>
+            <li>@Html.ActionLink("Custom DisplayModes", "index", "CustomDisplayMode")</li>
+            <li>@Html.ActionLink("Konsekwentne", "index", "consistent")</li>
+            <li>@Html.ActionLink("jQuery", "index", "JQuery")</li>
+            <li>@Html.ActionLink("Responsive", "index", "Responsive")</li>
+            <li>@Html.ActionLink("CSS3MediaQueries", "index", "CSS3 Media Queries")</li>
+        </ul>
+
+        <h2>Mobile _Layout.cshtml</h2>
+        @RenderBody() 
+        </div>
+     </body>
+ </html>

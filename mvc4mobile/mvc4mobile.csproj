@@ -118,6 +118,7 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleMobileConfig.cs" />
     <Compile Include="Controllers\ConsistentController.cs" />
+    <Compile Include="Controllers\CSS3MediaQueriesController.cs" />
     <Compile Include="Controllers\CustomDisplayModeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JQueryController.cs" />
@@ -149,6 +150,7 @@
     <Content Include="Content\jquery.mobile.structure-1.1.1.min.css" />
     <Content Include="Content\jquery.mobile.theme-1.1.1.css" />
     <Content Include="Content\jquery.mobile.theme-1.1.1.min.css" />
+    <Content Include="Content\MediaQueries.css" />
     <Content Include="Content\reset.css" />
     <Content Include="Content\Responsive.css" />
     <Content Include="Content\Site.Mobile.css" />
@@ -196,6 +198,7 @@
     <Content Include="Views\CustomDisplayMode\_Partial.cshtml" />
     <Content Include="Views\Consistent\Index.cshtml" />
     <Content Include="Views\JQuery\Index.cshtml" />
+    <Content Include="Views\CSS3MediaQueries\Index.cshtml" />
     <None Include="Views\Levels\Index.Mobile.cshtml" />
     <Content Include="Views\JQuery\_jQuery.cshtml" />
     <Content Include="Views\Responsive\Index.cshtml" />
